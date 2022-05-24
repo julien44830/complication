@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <title>Mon espace personnel</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <style>
+body{
+  height: 1500px;
+}
+
+    
+    .slideUp {
+  animation-name: slideUp;
+  animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+  </style>
+</head>
+<body id="title">
+<main class="container">
+    <header class="jumbotron">
+        <h1 >Mon espace personnel</h1>
+        <button onclick="changeColor('lightblue');">blue</button>
+        <button onclick="changeColor('darkred');">red</button>
+        <p>
+          
+          
+        </p>
+        <p id="myImg" class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing                 elit, sed do eiusmod tempor incididunt ut labore et                dolore magna aliqua. Ut enim ad minim veniam, quis                 nostrud exercitation ullamco laboris nisi ut aliquip               ex ea commodo consequat 
+        </p>
+    </header>
+</main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+<script src="script.js">
+    <p>
+      Merci d'activer JavaScript afin de pouvoir bénéficier de           toutes les fonctionnalités de notre site.
+    </p>
+</script>
+
+</body>
+
+</html>
